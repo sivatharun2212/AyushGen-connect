@@ -60,7 +60,8 @@ const Stage1 = ({ aadhaarNumber, setAadhaarNumber, setStage }) => {
 							By proceeding, you agree to the{" "}
 							<a
 								href="https://uhi.abdm.gov.in/home/terms_condition"
-								target="_blank">
+								target="_blank"
+								rel="noreferrer">
 								terms and conditions
 							</a>{" "}
 							of using the ABHA Number service.

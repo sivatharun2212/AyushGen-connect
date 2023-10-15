@@ -229,6 +229,7 @@ const Profile = () => {
 												src={editIcon}
 												onClick={handleEditName}
 												className={styles.editFieldIcon}
+												alt="edit"
 											/>
 										)}
 									</div>
@@ -254,6 +255,7 @@ const Profile = () => {
 												src={editIcon}
 												onClick={handleEditPhone}
 												className={styles.editFieldIcon}
+												alt="edit"
 											/>
 										)}
 									</div>
@@ -279,6 +281,7 @@ const Profile = () => {
 												src={editIcon}
 												onClick={handleEditAge}
 												className={styles.editFieldIcon}
+												alt="edit"
 											/>
 										)}
 									</div>
@@ -305,6 +308,7 @@ const Profile = () => {
 												src={editIcon}
 												onClick={handleEditCity}
 												className={styles.editFieldIcon}
+												alt="edit"
 											/>
 										)}
 									</div>
@@ -331,6 +335,7 @@ const Profile = () => {
 												src={editIcon}
 												onClick={handleEditState}
 												className={styles.editFieldIcon}
+												alt="edit"
 											/>
 										)}
 									</div>
