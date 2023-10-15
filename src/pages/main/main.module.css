@@ -1,0 +1,49 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(248, 255, 250);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contentContainer {
+	background-color: rgb(255, 255, 255);
+	width: 60%;
+	height: 60%;
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+		rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+}
+.heading {
+	font-size: 60px;
+	font-family: "Gabarito", cursive;
+}
+.healthSphere {
+	color: rgb(69, 153, 156);
+}
+
+.consultBtn {
+	background: rgb(147, 231, 97);
+	background: linear-gradient(
+		90deg,
+		rgba(147, 231, 97, 1) 0%,
+		rgba(109, 237, 141, 1) 70%
+	);
+	width: 300px;
+	height: 50px;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: "Gabarito", cursive;
+}
+.consultBtn:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+		rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

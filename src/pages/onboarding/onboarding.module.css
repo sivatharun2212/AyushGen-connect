@@ -1,0 +1,123 @@
+.uploadPhoto {
+	display: flex;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.uploadPhoto > div {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #ffffff;
+}
+
+.uploadPhoto > img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.button {
+	width: 150px;
+	height: 30px;
+	background: rgb(147, 231, 97);
+	background: linear-gradient(
+		90deg,
+		rgba(147, 231, 97, 1) 0%,
+		rgba(109, 237, 141, 1) 70%
+	);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.section {
+	max-height: 100vh;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0px;
+}
+
+.container {
+	width: 60%;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+		rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	padding: 60px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.headingContainer {
+	display: flex;
+	justify-content: center;
+}
+.heading {
+	text-transform: capitalize;
+	font-size: 25px;
+}
+.profileContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.uploadText {
+	text-transform: capitalize;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-image: linear-gradient(
+		90deg,
+		rgba(147, 231, 97, 1) 0%,
+		rgba(109, 237, 141, 1) 70%
+	);
+	border-radius: 5px;
+}
+
+.InputsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.InputsContainer input {
+	width: 400px;
+	height: 30px;
+	outline: none;
+	border: 1px solid rgb(69, 153, 156);
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.dropdown {
+	width: 400px;
+	height: 30px;
+	outline: none;
+	border: 1px solid rgb(69, 153, 156);
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.btnCont {
+	display: flex;
+	justify-content: center;
+}

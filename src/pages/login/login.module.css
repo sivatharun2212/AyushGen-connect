@@ -1,0 +1,139 @@
+.section {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(248, 255, 250);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+		rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	width: 80%;
+	height: 70%;
+	border-radius: 20px;
+	display: flex;
+}
+.leftContainer {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.leftContainer img {
+	width: 90%;
+}
+.rightContainer {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	align-items: center;
+}
+.loginForm {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+.headingcontainer {
+	height: 30%;
+}
+.headingcontainer h1 {
+	font-size: 30px;
+}
+.createAccount {
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	padding: 10px 0px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+.form input {
+	width: 250px;
+	height: 30px;
+	outline: none;
+	border: 1px solid rgb(69, 153, 156);
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.form button {
+	width: 250px;
+	height: 30px;
+	background: rgb(147, 231, 97);
+	background: linear-gradient(
+		90deg,
+		rgba(147, 231, 97, 1) 0%,
+		rgba(109, 237, 141, 1) 70%
+	);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+.form button:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+		rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.signin {
+	height: 40px;
+	width: 250px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px,
+		rgba(0, 0, 0, 0.23) 0px 0px 6px;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+	gap: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.signinImg {
+	width: 30px;
+}
+.signin button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+.signUpBtn {
+	width: 250px;
+	height: 30px;
+	background: rgb(147, 231, 97);
+	background: linear-gradient(
+		90deg,
+		rgba(147, 231, 97, 1) 0%,
+		rgba(109, 237, 141, 1) 70%
+	);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.signUpBtn:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+		rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
