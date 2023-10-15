@@ -66,7 +66,7 @@ const Navbar = (props) => {
 							<img
 								onClick={() => navigate("/Profile")}
 								src={userDetails?.image ? userDetails.image : defaulticon}
-								alt="Your Photo "
+								alt="profile of user"
 							/>
 						</div>
 					</div>
