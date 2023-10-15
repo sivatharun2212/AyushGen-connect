@@ -25,6 +25,7 @@ const Navbar = (props) => {
 		localStorage.removeItem("userDetails");
 	};
 
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	useEffect(() => {
 		try {
 			const getUserData = async () => {
